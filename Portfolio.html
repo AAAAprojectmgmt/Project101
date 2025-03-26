@@ -4,66 +4,109 @@
     <meta charset="UTF-8">
     <meta name="author" content="1234">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Your Name's Portfolio">
+    <meta name="description" content="1234's Portfolio Website">
     <title>1234 | Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+    <!-- Header -->
     <header>
         <nav>
+            <div class="logo">
+                <h1><a href="#home">1234</a></h1>
+            </div>
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
+    <!-- Home Section -->
     <section id="home">
         <div class="hero">
             <h1>Welcome to My Portfolio</h1>
-            <p>1234</p>
+            <p>I'm 1234, a passionate Web Developer</p>
+            <a href="#contact" class="cta-btn">Get in Touch</a>
         </div>
     </section>
 
+    <!-- About Me Section -->
     <section id="about">
         <h2>About Me</h2>
-        <p>Hi, I'm 1234. I'm a webdev with experience in web development.</p>
+        <p>Hello! I'm 1234, a web developer with a passion for creating user-friendly and innovative websites. I specialize in front-end development with a strong background in JavaScript, HTML, and CSS. I'm always eager to learn new technologies and take on exciting projects!</p>
     </section>
 
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <h3>HTML</h3>
+                <p>Experienced with HTML5, creating semantic, accessible, and well-structured web pages.</p>
+            </div>
+            <div class="skill">
+                <h3>CSS</h3>
+                <p>Skilled in CSS3, with experience using  Flexbox, Grid, and animations for responsive designs.</p>
+            </div>
+            <div class="skill">
+                <h3>JavaScript</h3>
+                <p>Proficient in JavaScript, including ES6+ features, and frameworks like React.js.</p>
+            </div>
+            <div class="skill">
+                <h3>Git & GitHub</h3>
+                <p>Comfortable with Git for version control and GitHub for collaboration and project management.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
     <section id="projects">
         <h2>My Projects</h2>
         <div class="project-container">
             <div class="project">
                 <img src="project1.jpg" alt="Project 1">
-                <h3>Project 1</h3>
-                <p>To Do List</p>
+                <h3>To-Do List</h3>
+                <p>A task management app that allows users to add, edit, and delete tasks.</p>
+                <a href="#" class="project-link">View Project</a>
             </div>
             <div class="project">
                 <img src="project2.jpg" alt="Project 2">
-                <h3>Project 2</h3>
-                <p>Personal portfolio</p>
+                <h3>Personal Portfolio</h3>
+                <p>This portfolio website where I showcase my skills and projects.</p>
+                <a href="#" class="project-link">View Project</a>
             </div>
             <!-- Add more projects as needed -->
         </div>
     </section>
 
+    <!-- Contact Section -->
     <section id="contact">
         <h2>Contact</h2>
+        <p>If you'd like to work with me or just say hello, feel free to send me a message!</p>
         <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
             <label for="name">Your Name: </label>
             <input type="text" id="name" name="name" required>
-            <label for="email">Your Email:</label>
+            
+            <label for="email">Your Email: </label>
             <input type="email" id="email" name="email" required>
-            <label for="message">For Job</label>
+            
+            <label for="message">Message: </label>
             <textarea id="message" name="message" required></textarea>
-            <button type="submit">Send Message</button>
+            
+            <button type="submit" class="submit-btn">Send Message</button>
         </form>
     </section>
     <footer>
         <p>&copy; 2025 1234. All Rights Reserved.</p>
+        <div class="social-links">
+            <a href="https://github.com/your-profile" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/your-profile" target="_blank">LinkedIn</a>
+        </div>
     </footer>
 
 </body>
